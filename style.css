@@ -1,0 +1,73 @@
+/*Sfondo*/
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+
+/*Forma riquadro scuro e font dell'intera pagina*/
+#contenitore{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    margin: 50px 200px;
+    padding: 50px;
+}
+
+#contenitore *{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+/*header e nav*/
+#logo{
+    width: 200px;
+}
+
+header, nav{
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(47, 195, 47);
+    padding: 10px;
+}
+
+header > div{
+    font-size: 30px;
+    color: rgb(47, 195, 47);
+}
+
+/*Nome e stato monopattini*/
+section{
+    color: white; 
+    margin-top: 20px;       
+}
+
+.stato::before{
+    content: "\2192";
+}
+
+section > span{
+    font-size: 20px;
+    
+}
+
+/*Barre carica residua*/
+section div:last-child {
+    border-radius: 5px;
+    height: 20px;
+}
+
+#Carica1{
+    background-color: orange;
+    width: 300px;   
+}
+#Carica2{
+    background-color: green;
+    width: 450px;
+}
+#Carica3{
+    background-color: red;
+    width: 150px;
+}
